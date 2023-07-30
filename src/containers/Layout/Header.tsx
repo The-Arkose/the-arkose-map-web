@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 
 import logo from '../../assets/logo.svg'
 
-export const MapHeader = () => (
+export const Header: React.FC = () => (
   <Wrapper>
     <div className="container">
       <LogoWrapper>

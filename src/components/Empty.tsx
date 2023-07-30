@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Empty = () => (
+export const Empty: React.FC = () => (
   <MessageWrapper>
     <Message>
       <i className="fas fa-arrow-left" /> 請選擇地圖
