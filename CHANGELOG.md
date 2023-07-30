@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.0.0...v1.1.0) (2023-07-30)
+
+
+### Features
+
+* router setup ([f08068d](https://github.com/The-Arkose/the-arkose-map-web/commit/f08068d9a946a95ffa8241a64d92e6e7b30b34dd))
+
 ## 1.0.0 (2023-06-28)
 
 
