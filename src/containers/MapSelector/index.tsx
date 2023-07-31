@@ -22,7 +22,12 @@ export const MapSelector: React.FC = () => {
       <Nav visible={visible}>
         <CateTitle>Project TheArkose</CateTitle>
         <Cate>
-          <Item name="1.16" onChangeMap={handleChangeMap} mapId="94" />
+          <Item
+            name="1.16"
+            onChangeMap={handleChangeMap}
+            mapId="94"
+            hasDownload
+          />
           <Item
             name="1.14"
             onChangeMap={handleChangeMap}
