@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.18)(react@18.2.0)
   '@tanstack/router':
-    specifier: 0.0.1-beta.127
-    version: 0.0.1-beta.127(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.0.1-beta.130
+    version: 0.0.1-beta.130(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1167,8 +1167,8 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@tanstack/router@0.0.1-beta.127(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-W8d4dAAJREjsLLmw8FBlEX/NjzSqmjOalBvj9PCZiYEjSfGYtYYUp7hJoJLTKI++0splZi06iSydRNYy4F5nJA==}
+  /@tanstack/router@0.0.1-beta.130(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pdgD/3YK/HO6JJolrUFuY47Z20844E1I6KoBmFUSbucNmhPsR52+urtoveEmAoKMmGYekLrdsy1QOIz+ZHQ91A==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
