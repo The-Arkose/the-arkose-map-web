@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Link } from '@tanstack/router'
+import { Link } from '@tanstack/react-router'
 
 type Props = {
   onChangeMap: () => void
