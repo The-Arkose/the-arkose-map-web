@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Outlet } from '@tanstack/router'
+import { Outlet } from '@tanstack/react-router'
 
 import { MapSelector } from '../MapSelector'
 import { Header } from './Header'

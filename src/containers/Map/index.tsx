@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { useParams } from '@tanstack/router'
+import { useParams } from '@tanstack/react-router'
 
 export const Map: React.FC = () => {
   const { mapId } = useParams()
