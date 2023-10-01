@@ -54,7 +54,7 @@ const Name = styled(Link)`
     color: #ffffff;
     cursor: pointer;
   }
-`
+` as typeof Link
 
 const Download = styled.a`
   padding: 0 16px;
