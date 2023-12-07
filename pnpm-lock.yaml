@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.42)(react@18.2.0)
   '@tanstack/react-router':
-    specifier: 0.0.1-beta.234
-    version: 0.0.1-beta.234(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.0.1-beta.239
+    version: 0.0.1-beta.239(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1354,24 +1354,42 @@ packages:
       read-pkg-up: 7.0.1
     dev: true
 
-  /@tanstack/history@0.0.1-beta.234:
-    resolution: {integrity: sha512-sXX+uaPNeUbPClWNXhJvsGnuoNCim3wKQ6e4D0AwnpPJuQD0qC0FL8mbyR0e0j7ysTqdgYGT410x5JTno4vPJg==}
+  /@tanstack/history@0.0.1-beta.239:
+    resolution: {integrity: sha512-MDhF7hYq+DuY/7c4dVlHyHLPoIgB0M/vohgPgHaf9+EWzIYlwjELgd6EJyiQSJ+8SJpdGDPYF9ajjFUhTXnaPw==}
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@0.0.1-beta.234(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rW8Dp+RyW4SXifYRmtfQLC6o6K4A4dbrIVQguxpf8caT1VTBpggX58Pj1/VeW0uuwtYFK0sq+XZBN3T4eYStFg==}
+  /@tanstack/react-router@0.0.1-beta.239(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ZlNBLNT3DBSC36lmP/XyWqawOpW3VybT97u9NhnWcHAnLWcv0SooWrnObxeRSQezpuNhzI+N+5Xx6NSrhEAYYg==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
       '@babel/runtime': 7.22.5
-      '@tanstack/history': 0.0.1-beta.234
+      '@tanstack/history': 0.0.1-beta.239
+      '@tanstack/react-store': 0.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@tanstack/store': 0.1.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
+    dev: false
+
+  /@tanstack/react-store@0.2.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-tEbMCQjbeVw9KOP/202LfqZMSNAVi6zYkkp1kBom8nFuMx/965Hzes3+6G6b/comCwVxoJU8Gg9IrcF8yRPthw==}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      '@tanstack/store': 0.1.3
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      use-sync-external-store: 1.2.0(react@18.2.0)
+    dev: false
+
+  /@tanstack/store@0.1.3:
+    resolution: {integrity: sha512-GnolmC8Fr4mvsHE1fGQmR3Nm0eBO3KnZjDU0a+P3TeQNM/dDscFGxtA7p31NplQNW3KwBw4t1RVFmz0VeKLxcw==}
     dev: false
 
   /@types/babel__core@7.20.5:
@@ -6375,6 +6393,14 @@ packages:
     resolution: {integrity: sha512-Am1ousAhSLBeB9cG/7k7r2R0zj50uDRlZHPGbazid5s9rlF1F/QKYObEKSIunSjIOkJZqwRRLpvewjEkM7pSqg==}
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
+
+  /use-sync-external-store@1.2.0(react@18.2.0):
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /use@3.1.1:
     resolution: {integrity: sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==}
