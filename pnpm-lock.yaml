@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.1)(@types/react@18.2.43)(react@18.2.0)
   '@tanstack/react-router':
-    specifier: 0.0.1-beta.246
-    version: 0.0.1-beta.246(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.0.1-beta.247
+    version: 0.0.1-beta.247(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1354,20 +1354,20 @@ packages:
       read-pkg-up: 7.0.1
     dev: true
 
-  /@tanstack/history@0.0.1-beta.246:
-    resolution: {integrity: sha512-wI1SU+cFzjdD7VzdsfiyQzhayP69omHIdslJmGCdoSEnchRh4glnmLROOIESgd/6LbOCnWYg3y5VffqD0ZWPgA==}
+  /@tanstack/history@0.0.1-beta.247:
+    resolution: {integrity: sha512-x5hD3TBFMG+hDuo/9Np4//n5gbXKGtp/jsbu+lst574uW4CTvWz9kenJnw2gjNjS4jsxmL+6czX2vVA4Wz4h1Q==}
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@0.0.1-beta.246(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-JYjZg4Gj9M+xVRIa39GvJ1+qsWQhk3NnKu3AL6LJGHUA25j5AVbvVMuPLyGwkzgh2RIkxvYNdPatM56B/+Ucqw==}
+  /@tanstack/react-router@0.0.1-beta.247(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vOGRE2dmXraErXNsFYznVUBerm9Z3ahl8OD5JlwCprskgRONWp0tZ6prSDydUHRNf68Jrt6mtjPcVQ+MP5NyfA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
       react-dom: '>=16'
     dependencies:
       '@babel/runtime': 7.22.5
-      '@tanstack/history': 0.0.1-beta.246
+      '@tanstack/history': 0.0.1-beta.247
       '@tanstack/react-store': 0.2.1(react-dom@18.2.0)(react@18.2.0)
       '@tanstack/store': 0.1.3
       react: 18.2.0
