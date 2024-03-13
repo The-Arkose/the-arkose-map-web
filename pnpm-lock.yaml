@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.65)(react@18.2.0)
   '@tanstack/react-router':
-    specifier: 1.19.8
-    version: 1.19.8(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.19.12
+    version: 1.19.12(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -1341,8 +1341,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.19.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-tBBlA1rzJhqxY3a7Fmy6WltVUhFvOvAGAKj1YpqeXZUvs2MvGd1/hzIdQBLF5or2nsEwaLeXRqOQzYhTHG59Fg==}
+  /@tanstack/react-router@1.19.12(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/S2iUNc57/NULGcwO23vNqTTPWccPgfrzAJn9TuRu9hmQqcOorDQ5q8YwWfcKGb4l/G3nljKxKe43NNlTzEXJA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16'
