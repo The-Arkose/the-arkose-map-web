@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.13.0
     version: 11.13.0(@emotion/react@11.13.3)(@types/react@18.3.5)(react@18.3.1)
   '@tanstack/react-router':
-    specifier: 1.51.6
-    version: 1.51.6(react-dom@18.3.1)(react@18.3.1)
+    specifier: 1.51.7
+    version: 1.51.7(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -1231,19 +1231,19 @@ packages:
       read-pkg-up: 7.0.1
     dev: true
 
-  /@tanstack/history@1.51.6:
-    resolution: {integrity: sha512-qx6HpTSDI8X6fQauiaAIHmCAEfK2m0nkED6A3WoLs0AUcnDhFiAlJ/0KGJjYnjWtiLL35LAVsHqL9ofpsm9yHA==}
+  /@tanstack/history@1.51.7:
+    resolution: {integrity: sha512-y25aH3NDbdUp5Gk6Fnb77LsHTT2JrzVgI44ZiyEOf8i2j14Ma3oJ80fCw7rT/iV4xa4IN2Yex9flAsZQdh1i4A==}
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.51.6(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-Z/y8RD50vxZUnsKHJ1VP6U9fKRKwDBmJcM8eHsIbhM7fbhK2mKvYZsSWZNsNWxRT+nnzEXCF+6tU7FIq0EGhBg==}
+  /@tanstack/react-router@1.51.7(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-nGRQ09T+ZlXSl1774O5PR/uSdemPf5U18KA6LLI9Se5VD2Ic6BHBFHFiDm16FbCjsEUXeakt7gaDxwsP7RxvpA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@tanstack/history': 1.51.6
+      '@tanstack/history': 1.51.7
       '@tanstack/react-store': 0.5.5(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
