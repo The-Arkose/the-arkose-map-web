@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.13.0
     version: 11.13.0(@emotion/react@11.13.3)(@types/react@18.3.5)(react@18.3.1)
   '@tanstack/react-router':
-    specifier: 1.56.2
-    version: 1.56.2(@tanstack/router-generator@1.56.2)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 1.56.4
+    version: 1.56.4(@tanstack/router-generator@1.56.4)(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -1456,12 +1456,12 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.56.2(@tanstack/router-generator@1.56.2)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-dvsjaduioeORmmyKTyoQLyV3zRC7HQ2JHttPHTpx2fGYV21bShnps2xUfCWbOAFcNbXphknna1PPdN71F6UmnQ==}
+  /@tanstack/react-router@1.56.4(@tanstack/router-generator@1.56.4)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-e7sVX+6M+K2Z4dxGJgA1hTpDueOXctHNLTx2RcK8dm0SuNnuzbwgyoH85VuVMNqT9cLpTKSeDVeLdhWLUjlrEA==}
     engines: {node: '>=12'}
     peerDependencies:
       '@tanstack/react-router': '*'
-      '@tanstack/router-generator': 1.56.2
+      '@tanstack/router-generator': 1.56.4
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
@@ -1469,9 +1469,9 @@ packages:
         optional: true
     dependencies:
       '@tanstack/history': 1.51.7
-      '@tanstack/react-router': 1.56.2(@tanstack/router-generator@1.56.2)(react-dom@18.3.1)(react@18.3.1)
+      '@tanstack/react-router': 1.56.4(@tanstack/router-generator@1.56.4)(react-dom@18.3.1)(react@18.3.1)
       '@tanstack/react-store': 0.5.5(react-dom@18.3.1)(react@18.3.1)
-      '@tanstack/router-generator': 1.56.2
+      '@tanstack/router-generator': 1.56.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tiny-invariant: 1.3.3
@@ -1490,8 +1490,8 @@ packages:
       use-sync-external-store: 1.2.2(react@18.3.1)
     dev: false
 
-  /@tanstack/router-generator@1.56.2:
-    resolution: {integrity: sha512-U/9+PBbLCfuy3sUzSzQ7YmU7o7V0aEN5f6jbKfwV9I1bd0AnpmtFJ7W5HnOpAZwCLiL00g04ZRWXF7JiSkm5ew==}
+  /@tanstack/router-generator@1.56.4:
+    resolution: {integrity: sha512-VR2/8Vl8LTyxK/CWpc0yWB8kCdAa37Q1WvpbvO6jkyph7gqmlTWPb9PB58mSsuWxO7phbTxY8mMTR/Gr+6y+0A==}
     engines: {node: '>=12'}
     dependencies:
       '@tanstack/virtual-file-routes': 1.56.0
