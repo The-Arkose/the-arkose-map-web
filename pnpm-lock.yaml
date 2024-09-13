@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.13.0
     version: 11.13.0(@emotion/react@11.13.3)(@types/react@18.3.5)(react@18.3.1)
   '@tanstack/react-router':
-    specifier: 1.57.10
-    version: 1.57.10(@tanstack/router-generator@1.57.9)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 1.57.13
+    version: 1.57.13(@tanstack/router-generator@1.57.13)(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -1455,12 +1455,12 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.57.10(@tanstack/router-generator@1.57.9)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-5azQ3bVVUTRT25B5PwkVZF47Z0BJEEhCa/0vFWAM7Sje/zwC8hcl8pL5MhDU0daAWlP8mi0640y4ESNPeEA2WQ==}
+  /@tanstack/react-router@1.57.13(@tanstack/router-generator@1.57.13)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-VJRRufwu0YIZNmWZ/rWMOGOSxwxdiULO8hx2xCOHzD/Fy/E7hMWwYX/VM2VcN8ug6GkYIFh7uk1+Gjcc2gyrhg==}
     engines: {node: '>=12'}
     peerDependencies:
       '@tanstack/react-generator': '*'
-      '@tanstack/router-generator': 1.57.9
+      '@tanstack/router-generator': 1.57.13
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
@@ -1469,7 +1469,7 @@ packages:
     dependencies:
       '@tanstack/history': 1.57.6
       '@tanstack/react-store': 0.5.5(react-dom@18.3.1)(react@18.3.1)
-      '@tanstack/router-generator': 1.57.9
+      '@tanstack/router-generator': 1.57.13
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tiny-invariant: 1.3.3
@@ -1488,8 +1488,8 @@ packages:
       use-sync-external-store: 1.2.2(react@18.3.1)
     dev: false
 
-  /@tanstack/router-generator@1.57.9:
-    resolution: {integrity: sha512-zDkyb6JLkvHc/Hhu9F+Gn4JzUR7ZgtH1rbcI2H14JG8IjW1ahtko/r0a2Ev+G4kNqhZF0a5sSgh/tMQOIPZyjg==}
+  /@tanstack/router-generator@1.57.13:
+    resolution: {integrity: sha512-DuoXwQOJHq1cCShhMnes6OaiFmpajMcah62/h40ZobbBtP5IuJFALvdtfAC26xfi2XmDA5/DwHwgdz9AHdsQCw==}
     engines: {node: '>=12'}
     dependencies:
       '@tanstack/virtual-file-routes': 1.56.0
