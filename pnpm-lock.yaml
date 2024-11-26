@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.13.5
     version: 11.13.5(@emotion/react@11.13.5)(@types/react@18.3.12)(react@18.3.1)
   '@tanstack/react-router':
-    specifier: 1.82.8
-    version: 1.82.8(react-dom@18.3.1)(react@18.3.1)
+    specifier: 1.82.12
+    version: 1.82.12(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -1221,11 +1221,11 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.82.8(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-l4F9V0CeDxvV5TGUsagGK5Zt1+l9xa6P+/Hyj6l79mBgW21Vm4BU3sJ3pgg75379gDee3G2sqkViYGEgv6JRFA==}
+  /@tanstack/react-router@1.82.12(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-A7Jx3jBNuoXDy8Ni6dS4OWkF/bWFzITOB/HFWF5TfLFs621VNhwiD0C00ZpnSyqsEuekoGg6W/q4HDVR2rlzNQ==}
     engines: {node: '>=12'}
     peerDependencies:
-      '@tanstack/router-generator': 1.81.9
+      '@tanstack/router-generator': 1.82.10
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
@@ -1233,7 +1233,7 @@ packages:
         optional: true
     dependencies:
       '@tanstack/history': 1.81.9
-      '@tanstack/react-store': 0.5.6(react-dom@18.3.1)(react@18.3.1)
+      '@tanstack/react-store': 0.6.1(react-dom@18.3.1)(react@18.3.1)
       jsesc: 3.0.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -1241,20 +1241,20 @@ packages:
       tiny-warning: 1.0.3
     dev: false
 
-  /@tanstack/react-store@0.5.6(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-SitIpS5jTj28DajjLpWbIX+YetmJL+6PRY0DKKiCGBKfYIqj3ryODQYF3jB3SNoR9ifUA/jFkqbJdBKFtWd+AQ==}
+  /@tanstack/react-store@0.6.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-6gOopOpPp1cAXkEyTEv6tMbAywwFunvIdCKN/SpEiButUayjXU+Q5Sp5Y3hREN3VMR4OA5+RI5SPhhJoqP9e4w==}
     peerDependencies:
-      react: ^17.0.0 || ^18.0.0
-      react-dom: ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
-      '@tanstack/store': 0.5.5
+      '@tanstack/store': 0.6.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       use-sync-external-store: 1.2.2(react@18.3.1)
     dev: false
 
-  /@tanstack/store@0.5.5:
-    resolution: {integrity: sha512-EOSrgdDAJExbvRZEQ/Xhh9iZchXpMN+ga1Bnk8Nmygzs8TfiE6hbzThF+Pr2G19uHL6+DTDTHhJ8VQiOd7l4tA==}
+  /@tanstack/store@0.6.0:
+    resolution: {integrity: sha512-+m2OBglsjXcLmmKOX6/9v8BDOCtyxhMmZLsRUDswOOSdIIR9mvv6i0XNKsmTh3AlYU8c1mRcodC8/Vyf+69VlQ==}
     dev: false
 
   /@types/babel__core@7.20.5:
