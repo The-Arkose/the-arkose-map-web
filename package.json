@@ -29,7 +29,7 @@
     "@commitlint/cli": "19.6.0",
     "@commitlint/config-conventional": "19.6.0",
     "@spotify/eslint-config": "15.0.0",
-    "@types/react": "18.3.14",
+    "@types/react": "18.3.15",
     "@types/react-dom": "18.3.3",
     "@typescript-eslint/eslint-plugin": "8.18.0",
     "@typescript-eslint/parser": "8.18.0",
