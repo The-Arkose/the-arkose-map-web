@@ -24,10 +24,10 @@ jobs:
         id: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          release-as: 1.2.2
-          last-release-sha: e3013f0df953b93438b8d56d444d6ce9ae20fdba
         with:
           release-type: node
+          release-as: 1.2.2
+          last-release-sha: e3013f0df953b93438b8d56d444d6ce9ae20fdba
       - run: pnpm install --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm build
