@@ -21,7 +21,7 @@
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.0",
-    "@tanstack/react-router": "1.91.2",
+    "@tanstack/react-router": "1.91.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
