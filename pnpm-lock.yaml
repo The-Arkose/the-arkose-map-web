@@ -74,8 +74,8 @@ devDependencies:
     specifier: 6.0.0
     version: 6.0.0
   lint-staged:
-    specifier: 15.3.0
-    version: 15.3.0
+    specifier: 15.4.1
+    version: 15.4.1
   prettier:
     specifier: 3.4.2
     version: 3.4.2
@@ -524,7 +524,7 @@ packages:
     engines: {node: '>=v18'}
     dependencies:
       '@commitlint/types': 19.5.0
-      chalk: 5.3.0
+      chalk: 5.4.1
     dev: true
 
   /@commitlint/is-ignored@19.6.0:
@@ -553,7 +553,7 @@ packages:
       '@commitlint/execute-rule': 19.5.0
       '@commitlint/resolve-extends': 19.5.0
       '@commitlint/types': 19.5.0
-      chalk: 5.3.0
+      chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.7.3)
       cosmiconfig-typescript-loader: 6.1.0(@types/node@20.5.1)(cosmiconfig@9.0.0)(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
@@ -628,7 +628,7 @@ packages:
     engines: {node: '>=v18'}
     dependencies:
       '@types/conventional-commits-parser': 5.0.0
-      chalk: 5.3.0
+      chalk: 5.4.1
     dev: true
 
   /@emotion/babel-plugin@11.13.5:
@@ -2210,11 +2210,6 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-    dev: true
-
-  /chalk@5.3.0:
-    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /chalk@5.4.1:
@@ -4542,8 +4537,8 @@ packages:
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged@15.3.0:
-    resolution: {integrity: sha512-vHFahytLoF2enJklgtOtCtIjZrKD/LoxlaUusd5nh7dWv/dkKQJY74ndFSzxCdv7g0ueGg1ORgTSt4Y9LPZn9A==}
+  /lint-staged@15.4.1:
+    resolution: {integrity: sha512-P8yJuVRyLrm5KxCtFx+gjI5Bil+wO7wnTl7C3bXhvtTaAFGirzeB24++D0wGoUwxrUKecNiehemgCob9YL39NA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
