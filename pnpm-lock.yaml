@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.14.0
     version: 11.14.0(@emotion/react@11.14.0)(@types/react@19.0.8)(react@19.0.0)
   '@tanstack/react-router':
-    specifier: 1.97.17
-    version: 1.97.17(react-dom@19.0.0)(react@19.0.0)
+    specifier: 1.97.21
+    version: 1.97.21(react-dom@19.0.0)(react@19.0.0)
   react:
     specifier: 19.0.0
     version: 19.0.0
@@ -1336,16 +1336,17 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.97.17(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-xcEWyA16k9vnzc8f2djXN2HtoKEEUTL9yu4JB93wXwW+Ni9+wIXPWZoS+Q6TSjVsvpZHwt+jN1i7BndOhPx/4w==}
+  /@tanstack/react-router@1.97.21(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-0FuSExQL6IlnM4p1zweEb0US1LjTiLsU1uai7DrU3PkwaFhDXh1R7/MGUoYUZ9no6lXQlTKjB63hIVdi/Sfkpw==}
     engines: {node: '>=12'}
     peerDependencies:
-      react: '>=18'
-      react-dom: '>=18'
+      react: '>=18.0.0 || >=19.0.0'
+      react-dom: '>=18.0.0 || >=19.0.0'
     dependencies:
       '@tanstack/history': 1.97.8
       '@tanstack/react-store': 0.7.0(react-dom@19.0.0)(react@19.0.0)
-      jsesc: 3.0.2
+      '@tanstack/router-core': 1.97.21
+      jsesc: 3.1.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       tiny-invariant: 1.3.3
@@ -1362,6 +1363,18 @@ packages:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       use-sync-external-store: 1.4.0(react@19.0.0)
+    dev: false
+
+  /@tanstack/router-core@1.97.21:
+    resolution: {integrity: sha512-xfejDR7rxfGsM5OIMFyQVsaBkO1Ha/Sb7Y0wuh0W2WAgYuVzTO1ynNRot8Eo8G9D6aPgyzHEjV26iHxCVKjbBA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@tanstack/history': 1.97.8
+      '@tanstack/store': 0.6.0
+    dev: false
+
+  /@tanstack/store@0.6.0:
+    resolution: {integrity: sha512-+m2OBglsjXcLmmKOX6/9v8BDOCtyxhMmZLsRUDswOOSdIIR9mvv6i0XNKsmTh3AlYU8c1mRcodC8/Vyf+69VlQ==}
     dev: false
 
   /@tanstack/store@0.7.0:
@@ -4426,6 +4439,12 @@ packages:
     resolution: {integrity: sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==}
     engines: {node: '>=6'}
     hasBin: true
+
+  /jsesc@3.1.0:
+    resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dev: false
 
   /json-parse-better-errors@1.0.2:
     resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
