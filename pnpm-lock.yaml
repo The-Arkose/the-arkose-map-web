@@ -12,8 +12,8 @@ dependencies:
     specifier: 11.14.0
     version: 11.14.0(@emotion/react@11.14.0)(@types/react@19.0.10)(react@19.0.0)
   '@tanstack/react-router':
-    specifier: 1.114.17
-    version: 1.114.17(react-dom@19.0.0)(react@19.0.0)
+    specifier: 1.114.22
+    version: 1.114.22(react-dom@19.0.0)(react@19.0.0)
   react:
     specifier: 19.0.0
     version: 19.0.0
@@ -1339,21 +1339,21 @@ packages:
       read-pkg-up: 7.0.1
     dev: true
 
-  /@tanstack/history@1.114.12:
-    resolution: {integrity: sha512-br0AiFLCdTqqgPoZ6V35k1VoDmli1gGVM/YI1YbLZSA1kUnqFlY+Fx5NOgbRfxa7+oYyHUXkmkp3lJ5LueTrhQ==}
+  /@tanstack/history@1.114.22:
+    resolution: {integrity: sha512-CNwKraj/Xa8H7DUyzrFBQC3wL96JzIxT4i9CW0hxqFNNmLDyUcMJr8264iqqfxC0u1lFSG96URad08T2Qhadpw==}
     engines: {node: '>=12'}
     dev: false
 
-  /@tanstack/react-router@1.114.17(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-Dzp0wdiQDlOrORf2kwfgX+r6GH3eoC+xK+wjrBhAg3MVciE6+b5/oDHHNrM0WHb3+Lqa0slbsmbHL7/HHU4dwg==}
+  /@tanstack/react-router@1.114.22(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-Z58+pgN1uPAlw42uq3iH+S08+rS93594MNmdMY6wvTsHnanZ28eOd5pgfn9tshrmD7zdKJrfJ8zD2xpgRvpA5Q==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
     dependencies:
-      '@tanstack/history': 1.114.12
+      '@tanstack/history': 1.114.22
       '@tanstack/react-store': 0.7.0(react-dom@19.0.0)(react@19.0.0)
-      '@tanstack/router-core': 1.114.17
+      '@tanstack/router-core': 1.114.22
       jsesc: 3.1.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -1373,11 +1373,11 @@ packages:
       use-sync-external-store: 1.4.0(react@19.0.0)
     dev: false
 
-  /@tanstack/router-core@1.114.17:
-    resolution: {integrity: sha512-t7ww8LZR0LH96TD9OEupuloyWGDmLGEG20rW1Adve/a5b+u4yap/Vf+aznzrMT+GZ/zyTWLJy2zQg+DjEEUMPA==}
+  /@tanstack/router-core@1.114.22:
+    resolution: {integrity: sha512-gWiHB+QxOiwIFm43xsOiQu5BKUucOxW3yiV3YBnrZQu8IpdREEKoYkBxuEEKW23gMi2mmoJMZC8N4mN7NiIxrg==}
     engines: {node: '>=12'}
     dependencies:
-      '@tanstack/history': 1.114.12
+      '@tanstack/history': 1.114.22
       '@tanstack/store': 0.7.0
     dev: false
 
