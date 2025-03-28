@@ -1,21 +1,21 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled";
 
-import logo from '../../assets/logo.svg'
+import logo from "../../assets/logo.svg";
 
 export const Header: React.FC = () => (
-  <Wrapper>
-    <div className="container">
-      <LogoWrapper>
-        <Logo src={logo} alt="logo" />
-        <Name>
-          <div>The Arkose</div>
-          <div>Online Map</div>
-        </Name>
-      </LogoWrapper>
-      <BackBtn href="https://TheArkose.com">Official Website</BackBtn>
-    </div>
-  </Wrapper>
-)
+	<Wrapper>
+		<div className="container">
+			<LogoWrapper>
+				<Logo src={logo} alt="logo" />
+				<Name>
+					<div>The Arkose</div>
+					<div>Online Map</div>
+				</Name>
+			</LogoWrapper>
+			<BackBtn href="https://TheArkose.com">Official Website</BackBtn>
+		</div>
+	</Wrapper>
+);
 
 const Wrapper = styled.header`
   background: #222 50% 50%;
@@ -26,7 +26,7 @@ const Wrapper = styled.header`
   top: 0;
   min-height: 90px;
   border-bottom: #eee8be 10px solid;
-`
+`;
 
 const BackBtn = styled.a`
   color: #222222;
@@ -36,17 +36,17 @@ const BackBtn = styled.a`
   border-radius: 5px;
   float: right;
   margin-top: 25px;
-`
+`;
 
 const LogoWrapper = styled.div`
   padding: 10px 0;
   display: inline-block;
-`
+`;
 
 const Logo = styled.img`
   height: 60px;
   vertical-align: bottom;
-`
+`;
 
 const Name = styled.div`
   display: inline-block;
@@ -64,4 +64,4 @@ const Name = styled.div`
     float: right;
     font-size: 15px;
   }
-`
+`;

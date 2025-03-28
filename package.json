@@ -1,51 +1,38 @@
 {
-  "name": "the-arkose-map-web",
-  "version": "1.2.2",
-  "repository": "https://github.com/the-arkose/the-arkose-map-web.git",
-  "author": "marklai1998 <marklai1998@gmail.com>",
-  "license": "MIT",
-  "type": "module",
-  "engines": {
-    "node": "^22.0.0"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "tsc",
-    "lint:js": "eslint src",
-    "pre-commit": "pnpm lint-staged",
-    "pre-push": "tsc",
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "@emotion/react": "11.14.0",
-    "@emotion/styled": "11.14.0",
-    "@tanstack/react-router": "1.87.7",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "19.6.0",
-    "@commitlint/config-conventional": "19.6.0",
-    "@spotify/eslint-config": "15.0.0",
-    "@types/react": "19.0.1",
-    "@types/react-dom": "19.0.2",
-    "@typescript-eslint/eslint-plugin": "8.18.0",
-    "@typescript-eslint/parser": "8.18.0",
-    "@vitejs/plugin-react": "4.3.4",
-    "eslint": "8.57.1",
-    "eslint-plugin-fp": "2.3.0",
-    "eslint-plugin-import": "2.31.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "husky": "9.1.7",
-    "import-sort-cli": "6.0.0",
-    "import-sort-parser-babylon": "6.0.0",
-    "import-sort-parser-typescript": "6.0.0",
-    "import-sort-style-module": "6.0.0",
-    "lint-staged": "15.2.11",
-    "prettier": "3.4.2",
-    "typescript": "5.7.2",
-    "vite": "6.0.3"
-  }
+	"name": "the-arkose-map-web",
+	"version": "1.2.2",
+	"repository": "https://github.com/the-arkose/the-arkose-map-web.git",
+	"author": "marklai1998 <marklai1998@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"engines": {
+		"node": "^22.0.0"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"pre-commit": "pnpm biome check --fix --staged --no-errors-on-unmatched",
+		"pre-push": "tsc",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"@emotion/react": "11.14.0",
+		"@emotion/styled": "11.14.0",
+		"@tanstack/react-router": "1.87.7",
+		"react": "19.0.0",
+		"react-dom": "19.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@commitlint/cli": "19.6.0",
+		"@commitlint/config-conventional": "19.6.0",
+		"@types/react": "19.0.1",
+		"@types/react-dom": "19.0.2",
+		"@vitejs/plugin-react": "4.3.4",
+		"husky": "9.1.7",
+		"typescript": "5.7.2",
+		"vite": "6.0.3"
+	},
+	"packageManager": "pnpm@10.7.0"
 }

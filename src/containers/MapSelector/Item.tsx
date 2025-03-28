@@ -1,39 +1,39 @@
-import styled from '@emotion/styled'
-import { Link } from '@tanstack/react-router'
+import styled from "@emotion/styled";
+import { Link } from "@tanstack/react-router";
 
 type Props = {
-  onChangeMap: () => void
-  mapId: string
-  name: string
-  hasDownload?: boolean
-}
+	onChangeMap: () => void;
+	mapId: string;
+	name: string;
+	hasDownload?: boolean;
+};
 
 export const Item: React.FC<Props> = ({
-  onChangeMap,
-  mapId,
-  name,
-  hasDownload = false,
+	onChangeMap,
+	mapId,
+	name,
+	hasDownload = false,
 }) => (
-  <Wrapper>
-    <Name
-      search={{}}
-      to="/maps/$mapId"
-      params={{ mapId }}
-      onClick={onChangeMap}
-    >
-      {name}
-    </Name>
-    {hasDownload && (
-      <Download
-        href={`https://archive.thearkose.com/${mapId}.zip`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="far fa-file-archive" />
-      </Download>
-    )}
-  </Wrapper>
-)
+	<Wrapper>
+		<Name
+			search={{}}
+			to="/maps/$mapId"
+			params={{ mapId }}
+			onClick={onChangeMap}
+		>
+			{name}
+		</Name>
+		{hasDownload && (
+			<Download
+				href={`https://archive.thearkose.com/${mapId}.zip`}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<i className="far fa-file-archive" />
+			</Download>
+		)}
+	</Wrapper>
+);
 
 const Wrapper = styled.li`
   background-color: #191919;
@@ -42,7 +42,7 @@ const Wrapper = styled.li`
   transition: all 0.5s;
   display: flex;
   line-height: 48px;
-`
+`;
 
 const Name = styled(Link)`
   width: 100%;
@@ -54,7 +54,7 @@ const Name = styled(Link)`
     color: #ffffff;
     cursor: pointer;
   }
-` as typeof Link
+` as typeof Link;
 
 const Download = styled.a`
   padding: 0 16px;
@@ -69,4 +69,4 @@ const Download = styled.a`
     color: #ffffff;
     cursor: pointer;
   }
-`
+`;
