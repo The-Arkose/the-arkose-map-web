@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.5...v1.2.6) (2025-06-01)
+
+
+### Bug Fixes
+
+* **deps:** update all dependencies ([50484d0](https://github.com/The-Arkose/the-arkose-map-web/commit/50484d021a52b41f0635c384b8a320d4753e4954))
+
 ## [1.2.5](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.4...v1.2.5) (2025-05-03)
 
 
