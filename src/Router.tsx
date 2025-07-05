@@ -1,33 +1,33 @@
 import {
-	RootRoute,
-	Route,
-	Router,
-	createHashHistory,
-} from "@tanstack/react-router";
+  RootRoute,
+  Route,
+  Router,
+  createHashHistory,
+} from '@tanstack/react-router';
 
-import { Empty } from "./components/Empty";
-import { Dynmap } from "./containers/Dynmap";
-import { Layout } from "./containers/Layout";
+import { Empty } from './components/Empty';
+import { Dynmap } from './containers/Dynmap';
+import { Layout } from './containers/Layout';
 
 const rootRoute = new RootRoute({
-	component: Layout,
+  component: Layout,
 });
 
 const indexRoute = new Route({
-	getParentRoute: () => rootRoute,
-	path: "/",
-	component: () => <Empty />,
+  getParentRoute: () => rootRoute,
+  path: '/',
+  component: () => <Empty />,
 });
 
 const mapsRoute = new Route({
-	getParentRoute: () => rootRoute,
-	path: "maps",
+  getParentRoute: () => rootRoute,
+  path: 'maps',
 });
 
 const mapDetailRoute = new Route({
-	getParentRoute: () => mapsRoute,
-	path: "$mapId",
-	component: () => <Dynmap />,
+  getParentRoute: () => mapsRoute,
+  path: '$mapId',
+  component: () => <Dynmap />,
 });
 
 mapsRoute.addChildren([mapDetailRoute]);

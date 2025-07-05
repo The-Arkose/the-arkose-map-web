@@ -1,64 +1,64 @@
-import styled from "@emotion/styled";
-import { useCallback, useState } from "react";
+import styled from '@emotion/styled';
+import { useCallback, useState } from 'react';
 
-import { Item } from "./Item";
+import { Item } from './Item';
 
 export const MapSelector: React.FC = () => {
-	const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
 
-	const toggleNav = useCallback(() => {
-		setVisible((prev) => !prev);
-	}, []);
+  const toggleNav = useCallback(() => {
+    setVisible((prev) => !prev);
+  }, []);
 
-	const handleChangeMap = useCallback(() => {
-		setVisible(false);
-	}, []);
+  const handleChangeMap = useCallback(() => {
+    setVisible(false);
+  }, []);
 
-	return (
-		<Wrapper>
-			<Btn visible={visible} onClick={toggleNav}>
-				<i className="fas fa-caret-right" />
-			</Btn>
-			<Nav visible={visible}>
-				<CateTitle>Project TheArkose</CateTitle>
-				<Cate>
-					<Item
-						name="1.16"
-						onChangeMap={handleChangeMap}
-						mapId="94"
-						hasDownload
-					/>
-					<Item
-						name="1.14"
-						onChangeMap={handleChangeMap}
-						mapId="93"
-						hasDownload
-					/>
-					<Item
-						name="1.13"
-						onChangeMap={handleChangeMap}
-						mapId="92"
-						hasDownload
-					/>
-					<Item
-						name="1.12"
-						onChangeMap={handleChangeMap}
-						mapId="91"
-						hasDownload
-					/>
-				</Cate>
-				<CateTitle>火柴人小品休閒伺服器</CateTitle>
-				<Cate>
-					<Item
-						name="1.12"
-						onChangeMap={handleChangeMap}
-						mapId="90"
-						hasDownload
-					/>
-				</Cate>
-			</Nav>
-		</Wrapper>
-	);
+  return (
+    <Wrapper>
+      <Btn visible={visible} onClick={toggleNav}>
+        <i className="fas fa-caret-right" />
+      </Btn>
+      <Nav visible={visible}>
+        <CateTitle>Project TheArkose</CateTitle>
+        <Cate>
+          <Item
+            name="1.16"
+            onChangeMap={handleChangeMap}
+            mapId="94"
+            hasDownload
+          />
+          <Item
+            name="1.14"
+            onChangeMap={handleChangeMap}
+            mapId="93"
+            hasDownload
+          />
+          <Item
+            name="1.13"
+            onChangeMap={handleChangeMap}
+            mapId="92"
+            hasDownload
+          />
+          <Item
+            name="1.12"
+            onChangeMap={handleChangeMap}
+            mapId="91"
+            hasDownload
+          />
+        </Cate>
+        <CateTitle>火柴人小品休閒伺服器</CateTitle>
+        <Cate>
+          <Item
+            name="1.12"
+            onChangeMap={handleChangeMap}
+            mapId="90"
+            hasDownload
+          />
+        </Cate>
+      </Nav>
+    </Wrapper>
+  );
 };
 
 const Btn = styled.div<{ visible: boolean }>`
@@ -79,7 +79,7 @@ const Btn = styled.div<{ visible: boolean }>`
     padding: 10px;
     transition: all 1s;
 
-    ${({ visible }) => (visible ? "transform: rotate(180deg);" : "")}
+    ${({ visible }) => (visible ? 'transform: rotate(180deg);' : '')}
   }
 `;
 
@@ -90,7 +90,7 @@ const Nav = styled.div<{ visible: boolean }>`
   margin-right: 26px;
   height: inherit;
 
-  width: ${({ visible }) => (visible ? "300px" : "0")};
+  width: ${({ visible }) => (visible ? '300px' : '0')};
 `;
 
 const CateTitle = styled.div`

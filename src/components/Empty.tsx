@@ -1,11 +1,11 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Empty: React.FC = () => (
-	<MessageWrapper>
-		<Message>
-			<i className="fas fa-arrow-left" /> 請選擇地圖
-		</Message>
-	</MessageWrapper>
+  <MessageWrapper>
+    <Message>
+      <i className="fas fa-arrow-left" /> 請選擇地圖
+    </Message>
+  </MessageWrapper>
 );
 
 const MessageWrapper = styled.div`

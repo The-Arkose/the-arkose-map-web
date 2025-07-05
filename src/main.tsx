@@ -1,16 +1,16 @@
-import { Global, css } from "@emotion/react";
-import { RouterProvider } from "@tanstack/react-router";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { Global, css } from '@emotion/react';
+import { RouterProvider } from '@tanstack/react-router';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
-import { router } from "./Router";
+import { router } from './Router';
 
-const root = document.getElementById("app");
+const root = document.getElementById('app');
 if (root) {
-	createRoot(root).render(
-		<StrictMode>
-			<Global
-				styles={css`
+  createRoot(root).render(
+    <StrictMode>
+      <Global
+        styles={css`
           body {
             font-family:
               'Rajdhani',
@@ -49,8 +49,8 @@ if (root) {
             transition: all 0.5s;
           }
         `}
-			/>
-			<RouterProvider router={router} />
-		</StrictMode>,
-	);
+      />
+      <RouterProvider router={router} />
+    </StrictMode>,
+  );
 }
