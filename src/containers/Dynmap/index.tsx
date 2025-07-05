@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { useParams } from '@tanstack/react-router';
+import styled from "@emotion/styled";
+import { useParams } from "@tanstack/react-router";
 
 export const Dynmap: React.FC = () => {
   const { mapId } = useParams({ strict: false });
