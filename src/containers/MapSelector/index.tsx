@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
-import { useCallback, useState } from 'react';
+import styled from "@emotion/styled";
+import { useCallback, useState } from "react";
 
-import { Item } from './Item';
+import { Item } from "./Item";
 
 export const MapSelector: React.FC = () => {
   const [visible, setVisible] = useState(false);
@@ -79,7 +79,7 @@ const Btn = styled.div<{ visible: boolean }>`
     padding: 10px;
     transition: all 1s;
 
-    ${({ visible }) => (visible ? 'transform: rotate(180deg);' : '')}
+    ${({ visible }) => (visible ? "transform: rotate(180deg);" : "")}
   }
 `;
 
@@ -90,7 +90,7 @@ const Nav = styled.div<{ visible: boolean }>`
   margin-right: 26px;
   height: inherit;
 
-  width: ${({ visible }) => (visible ? '300px' : '0')};
+  width: ${({ visible }) => (visible ? "300px" : "0")};
 `;
 
 const CateTitle = styled.div`

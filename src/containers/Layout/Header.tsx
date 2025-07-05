@@ -1,6 +1,6 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
-import logo from '../../assets/logo.svg';
+import logo from "../../assets/logo.svg";
 
 export const Header: React.FC = () => (
   <Wrapper>
