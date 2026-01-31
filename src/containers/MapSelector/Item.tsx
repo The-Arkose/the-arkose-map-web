@@ -1,5 +1,5 @@
-import styled from "@emotion/styled";
-import { Link } from "@tanstack/react-router";
+import styled from '@emotion/styled';
+import { Link } from '@tanstack/react-router';
 
 type Props = {
   onChangeMap: () => void;
@@ -17,7 +17,7 @@ export const Item: React.FC<Props> = ({
   <Wrapper>
     <Name
       search={{}}
-      to="/maps/$mapId"
+      to='/maps/$mapId'
       params={{ mapId }}
       onClick={onChangeMap}
     >
@@ -26,10 +26,10 @@ export const Item: React.FC<Props> = ({
     {hasDownload && (
       <Download
         href={`https://archive.thearkose.com/${mapId}.zip`}
-        target="_blank"
-        rel="noopener noreferrer"
+        target='_blank'
+        rel='noopener noreferrer'
       >
-        <i className="far fa-file-archive" />
+        <i className='far fa-file-archive' />
       </Download>
     )}
   </Wrapper>

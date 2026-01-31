@@ -1,11 +1,11 @@
-import { css, Global } from "@emotion/react";
-import { RouterProvider } from "@tanstack/react-router";
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import { css, Global } from '@emotion/react';
+import { RouterProvider } from '@tanstack/react-router';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
-import { router } from "./Router.js";
+import { router } from './Router.js';
 
-const root = document.getElementById("app");
+const root = document.getElementById('app');
 if (root) {
   createRoot(root).render(
     <StrictMode>

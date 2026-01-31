@@ -1,18 +1,18 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-import logo from "../../assets/logo.svg";
+import logo from '../../assets/logo.svg';
 
 export const Header: React.FC = () => (
   <Wrapper>
-    <div className="container">
+    <div className='container'>
       <LogoWrapper>
-        <Logo src={logo} alt="logo" />
+        <Logo src={logo} alt='logo' />
         <Name>
           <div>The Arkose</div>
           <div>Online Map</div>
         </Name>
       </LogoWrapper>
-      <BackBtn href="https://TheArkose.com">Official Website</BackBtn>
+      <BackBtn href='https://TheArkose.com'>Official Website</BackBtn>
     </div>
   </Wrapper>
 );

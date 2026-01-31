@@ -1,8 +1,8 @@
-import styled from "@emotion/styled";
-import { Outlet } from "@tanstack/react-router";
+import styled from '@emotion/styled';
+import { Outlet } from '@tanstack/react-router';
 
-import { MapSelector } from "../MapSelector/index.js";
-import { Header } from "./Header.js";
+import { MapSelector } from '../MapSelector/index.js';
+import { Header } from './Header.js';
 
 export const Layout: React.FC = () => (
   <Container>
