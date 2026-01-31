@@ -30,9 +30,9 @@ importers:
       '@commitlint/cli':
         specifier: 20.3.1
         version: 20.3.1(@types/node@25.1.0)(typescript@5.9.3)
-      '@commitlint/config-conventional':
-        specifier: 20.3.1
-        version: 20.3.1
+      '@marklai/shared-config-commitlint':
+        specifier: ^1.0.0
+        version: 1.0.0(@commitlint/cli@20.3.1(@types/node@25.1.0)(typescript@5.9.3))
       '@types/react':
         specifier: 19.2.10
         version: 19.2.10
@@ -492,6 +492,12 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@marklai/shared-config-commitlint@1.0.0':
+    resolution: {integrity: sha512-z9c8iFPafWLVu2ezkWw7AhwOPu2rU8lFsDMlnGIn7M/TcvTx42gBofmm8CQmSxGSepRKWgLXg9/2F//oeCNhrg==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      '@commitlint/cli': ^20.0.0
 
   '@rolldown/pluginutils@1.0.0-beta.53':
     resolution: {integrity: sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ==}
@@ -1752,6 +1758,11 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@marklai/shared-config-commitlint@1.0.0(@commitlint/cli@20.3.1(@types/node@25.1.0)(typescript@5.9.3))':
+    dependencies:
+      '@commitlint/cli': 20.3.1(@types/node@25.1.0)(typescript@5.9.3)
+      '@commitlint/config-conventional': 20.3.1
 
   '@rolldown/pluginutils@1.0.0-beta.53': {}
 
