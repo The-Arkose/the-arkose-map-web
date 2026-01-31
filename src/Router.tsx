@@ -5,9 +5,9 @@ import {
   Router,
 } from "@tanstack/react-router";
 
-import { Empty } from "./components/Empty";
-import { Dynmap } from "./containers/Dynmap";
-import { Layout } from "./containers/Layout";
+import { Empty } from "./components/Empty.js";
+import { Dynmap } from "./containers/Dynmap/index.js";
+import { Layout } from "./containers/Layout/index.js";
 
 const rootRoute = new RootRoute({
   component: Layout,

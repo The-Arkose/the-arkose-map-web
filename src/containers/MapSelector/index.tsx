@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { useCallback, useState } from "react";
 
-import { Item } from "./Item";
+import { Item } from "./Item.js";
 
 export const MapSelector: React.FC = () => {
   const [visible, setVisible] = useState(false);
