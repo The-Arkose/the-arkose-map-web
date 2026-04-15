@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.31](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.30...v1.2.31) (2026-04-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @tanstack/react-router to v1.168.22 ([#1042](https://github.com/The-Arkose/the-arkose-map-web/issues/1042)) ([7c089a9](https://github.com/The-Arkose/the-arkose-map-web/commit/7c089a911ca71e54019927da91ffb554097259f8))
+
 ## [1.2.30](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.29...v1.2.30) (2026-04-14)
 
 
