@@ -22,17 +22,17 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.13",
+    "@biomejs/biome": "2.4.14",
     "@commitlint/cli": "20.5.3",
     "@marklai/shared-config-biome": "1.0.0",
-    "@marklai/shared-config-commitlint": "1.0.1",
+    "@marklai/shared-config-commitlint": "1.0.2",
     "@marklai/shared-config-typescript": "1.1.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.1",
     "lefthook": "2.1.6",
     "typescript": "6.0.3",
-    "vite": "8.0.10"
+    "vite": "8.0.11"
   },
   "packageManager": "pnpm@11.0.9"
 }
