@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.48](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.47...v1.2.48) (2026-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update tanstack-router monorepo to v1.170.11 ([#1118](https://github.com/The-Arkose/the-arkose-map-web/issues/1118)) ([642c124](https://github.com/The-Arkose/the-arkose-map-web/commit/642c12487ea28dd554953031fccbb60478abdd88))
+
 ## [1.2.47](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.46...v1.2.47) (2026-06-02)
 
 
