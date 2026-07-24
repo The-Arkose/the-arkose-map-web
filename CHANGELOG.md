@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.55](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.54...v1.2.55) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v19.2.8 ([#1161](https://github.com/The-Arkose/the-arkose-map-web/issues/1161)) ([30161b2](https://github.com/The-Arkose/the-arkose-map-web/commit/30161b28be06b867bad875e43aa998533b4b3b32))
+
 ## [1.2.54](https://github.com/The-Arkose/the-arkose-map-web/compare/v1.2.53...v1.2.54) (2026-07-17)
 
 
