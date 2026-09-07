@@ -28,7 +28,7 @@
     "@marklai/shared-config-commitlint": "1.1.1",
     "@marklai/shared-config-typescript": "1.1.2",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.5",
+    "@types/react-dom": "19.2.7",
     "@vitejs/plugin-react": "6.1.1",
     "lefthook": "2.1.10",
     "typescript": "7.0.2",
