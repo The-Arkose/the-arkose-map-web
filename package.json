@@ -18,8 +18,8 @@
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@tanstack/react-router": "1.170.35",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.13",
@@ -27,8 +27,8 @@
     "@marklai/shared-config-biome": "1.0.2",
     "@marklai/shared-config-commitlint": "1.1.1",
     "@marklai/shared-config-typescript": "1.1.2",
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.7",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.1",
     "lefthook": "2.1.12",
     "typescript": "7.0.2",
