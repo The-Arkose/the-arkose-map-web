@@ -22,7 +22,7 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.12",
+    "@biomejs/biome": "2.5.13",
     "@commitlint/cli": "21.2.2",
     "@marklai/shared-config-biome": "1.0.2",
     "@marklai/shared-config-commitlint": "1.1.1",
@@ -32,7 +32,7 @@
     "@vitejs/plugin-react": "6.1.1",
     "lefthook": "2.1.12",
     "typescript": "7.0.2",
-    "vite": "8.2.2"
+    "vite": "8.3.0"
   },
   "packageManager": "pnpm@12.4.1"
 }
