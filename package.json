@@ -18,8 +18,8 @@
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@tanstack/react-router": "1.170.44",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
